@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18426366500,
+              "duration": 28562974700,
               "status": "passed"
             },
             "line": 6,
@@ -30,22 +30,34 @@
           },
           {
             "result": {
-              "duration": 4970533600,
+              "duration": 15247676000,
               "status": "passed"
             },
             "line": 7,
-            "name": "i search for an item",
+            "name": "i log in",
             "match": {
-              "location": "AddToCart.i_add_an_item_to_the_basket()"
+              "location": "AddToCart.login()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5762137600,
+              "duration": 5476986800,
               "status": "passed"
             },
             "line": 8,
+            "name": "i search for an item",
+            "match": {
+              "location": "AddToCart.i_add_an_item_to_the_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6693720400,
+              "status": "passed"
+            },
+            "line": 9,
             "name": "i can view the item",
             "match": {
               "location": "AddToCart.i_can_view_the_item()"
@@ -54,10 +66,10 @@
           },
           {
             "result": {
-              "duration": 8896954700,
+              "duration": 9971605700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "i can add the item to cart",
             "match": {
               "location": "AddToCart.i_can_add_the_item_to_cart()"
@@ -98,7 +110,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16544890000,
+              "duration": 17317953400,
               "status": "passed"
             },
             "line": 6,
@@ -110,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 4455739000,
+              "duration": 3894491500,
               "status": "passed"
             },
             "line": 7,
@@ -122,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 6720113100,
+              "duration": 6771686700,
               "status": "passed"
             },
             "line": 8,
@@ -154,6 +166,191 @@
         "comments": [
           {
             "line": 3,
+            "value": "#adding to cart and checkout feature"
+          }
+        ],
+        "line": 5,
+        "name": "Checkout",
+        "description": "",
+        "id": "checkout;checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23087715200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i am shopping on the site",
+            "match": {
+              "location": "Checkout.that_i_am_on_the_shopping_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23654333900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i login into the site",
+            "match": {
+              "location": "Checkout.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12845321900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i search for that item",
+            "match": {
+              "location": "Checkout.i_add_an_item_to_the_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16776734900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i can view the item searched",
+            "match": {
+              "location": "Checkout.i_can_view_the_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6065225500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i can add the searched item to cart",
+            "match": {
+              "location": "Checkout.i_can_add_the_item_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15166290400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".icon\\-chevron\\-right\\ right\"}\n  (Session info: chrome\u003d93.0.4577.63)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027TMABUSELA\u0027, ip: \u0027192.168.55.69\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\\Users\\TMABUS~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57412}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 399141984f21c113d7682485cfeb4053\n*** Element info: {Using\u003dclass name, value\u003dicon-chevron-right right}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:405)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat bindings.Checkout.checkout(Checkout.java:68)\r\n\tat ✽.Then i can proceed to check out(Checkout.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "i can proceed to check out",
+            "match": {
+              "location": "Checkout.checkout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checkout",
+    "description": "",
+    "id": "checkout",
+    "keyword": "Feature",
+    "uri": "Checkout.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#adding to cart and checkout feature"
+          }
+        ],
+        "line": 5,
+        "name": "Search",
+        "description": "",
+        "id": "search;search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23160219300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i will be on the shopping site",
+            "match": {
+              "location": "Search.i_will_be_on_the_shopping_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19752246000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i login into the shopping website",
+            "match": {
+              "location": "Search.i_login_into_the_shopping_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8790915900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will search for a specific item",
+            "match": {
+              "location": "Search.i_will_search_for_a_specific_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19641251700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i can view the that specific item searched",
+            "match": {
+              "location": "Search.i_can_view_the_that_specific_item_searched()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "Search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
             "value": "#signIn feature"
           }
         ],
@@ -166,7 +363,7 @@
         "steps": [
           {
             "result": {
-              "duration": 30768097900,
+              "duration": 20487076700,
               "status": "passed"
             },
             "line": 6,
@@ -178,7 +375,7 @@
           },
           {
             "result": {
-              "duration": 6173504300,
+              "duration": 3708335900,
               "status": "passed"
             },
             "line": 7,
@@ -190,7 +387,7 @@
           },
           {
             "result": {
-              "duration": 4161912600,
+              "duration": 4123918100,
               "status": "passed"
             },
             "line": 8,
@@ -202,7 +399,7 @@
           },
           {
             "result": {
-              "duration": 9391123000,
+              "duration": 8933466400,
               "status": "passed"
             },
             "line": 9,

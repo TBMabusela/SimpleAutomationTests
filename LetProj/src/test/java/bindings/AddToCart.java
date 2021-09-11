@@ -5,9 +5,12 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
+import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
@@ -22,11 +25,27 @@ public class AddToCart {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.get("http://automationpractice.com/index.php");
         driver.manage().window().maximize();
+        Thread.sleep(4000);
+
+    }
+
+    @When("^i log in$")
+    public void login() throws Throwable {
+
+        driver.findElement(By.className("login")).click();
+        Thread.sleep(3000);
+        WebElement username=driver.findElement(By.id("email"));
+        WebElement password=driver.findElement(By.id("passwd"));
+        WebElement login=driver.findElement(By.cssSelector("#SubmitLogin"));
+
+        username.sendKeys("mabuselatsotlhe@gmail.com");
+        password.sendKeys("Testing@21");
+        driver.findElement(By.cssSelector("#SubmitLogin")).sendKeys(Keys.ENTER);
         Thread.sleep(2000);
 
     }
 
-    @When("^i search for an item$")
+    @And("^i search for an item$")
     public void i_add_an_item_to_the_basket() throws Throwable {
         driver.findElement(By.cssSelector("#search_query_top")).click();
         driver.findElement(By.cssSelector("#search_query_top")).sendKeys("Faded Short Sleeve T-shirts");

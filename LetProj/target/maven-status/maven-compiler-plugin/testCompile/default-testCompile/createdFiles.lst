@@ -1,0 +1,6 @@
+bindings\AddToCart.class
+bindings\Checkout.class
+bindings\AddToWishList.class
+bindings\SignIn.class
+bindings\Search.class
+runners\MyRunner.class
