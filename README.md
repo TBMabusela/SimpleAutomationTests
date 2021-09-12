@@ -1,13 +1,15 @@
 # SimpleAutomationTests
 
-#Introduction 
+# Introduction 
+
 This is a simple automation test suit that will serve an example of implementing a Selenium with cucumber test project.Everything is set up and tests can be added straight away.The Project will use ChromeDriver by default.
 
-#Tools Used 
-Selenium 
-Spring Boot 
-Java
-Cucumeber JUnit 
+# Tools Used 
+
+* Selenium 
+* Spring Boot 
+*Java
+*Cucumeber JUnit 
 Chrome version : 93 
 Chrome driver: 93
 **Ensure to use chrome driver version 93, find the link here: **
