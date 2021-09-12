@@ -12,7 +12,7 @@ This is a simple automation test suit that will serve an example of implementing
 *Cucumeber JUnit 
 Chrome version : 93 
 Chrome driver: 93
-**Ensure to use chrome driver version 93, find the link here: **
+**Ensure to use chrome driver version 93, find the link here: https://chromedriver.chromium.org/downloads **
 
 #Install and Run Project 
 Clone the repository 
