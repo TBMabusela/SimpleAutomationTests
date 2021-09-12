@@ -1,6 +1,6 @@
 @run
 Feature: Search
-  #adding to cart and checkout feature
+  #searching feature
 
   Scenario: Search
     Given i will be on the shopping site

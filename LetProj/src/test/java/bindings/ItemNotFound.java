@@ -1,5 +1,4 @@
 package bindings;
-
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -11,12 +10,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
-public class Search {
-
+public class ItemNotFound {
     WebDriver driver;
 
-    @Given("^i will be on the shopping site$")
-    public void i_will_be_on_the_shopping_site () throws Throwable {
+    @Given("^i am on the landing page of the site$")
+    public void visitShoppingSite() throws Throwable {
         String thisProject = System.getProperty("user.dir");
         System.setProperty("webdriver.chrome.driver", thisProject + "\\src\\test\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -27,8 +25,8 @@ public class Search {
 
     }
 
-    @When("^i login into the shopping website$")
-    public void i_login_into_the_shopping_website() throws Throwable {
+    @When("^i click sign in to login$")
+    public void signingIntoTheSite() throws Throwable {
 
         driver.findElement(By.className("login")).click();
         Thread.sleep(6000);
@@ -43,19 +41,17 @@ public class Search {
 
     }
 
-    @And("^i will search for a specific item$")
-    public void i_will_search_for_a_specific_item() throws Throwable {
+    @And("^i will search for an item not available on the site$")
+    public void failedSearchAttempt() throws Throwable {
         driver.findElement(By.cssSelector("#search_query_top")).click();
-        driver.findElement(By.cssSelector("#search_query_top")).sendKeys("Printed Summer Dress");
+        driver.findElement(By.cssSelector("#search_query_top")).sendKeys("Printed Pants");
         driver.findElement(By.cssSelector("#search_query_top")).sendKeys(Keys.ENTER);
-        Thread.sleep(6000);
+        Thread.sleep(10000);
 
     }
 
-    @Then("^i can view the that specific item searched$")
-    public void i_can_view_the_that_specific_item_searched() throws Throwable {
-        driver.findElement(By.className("product-container")).click();
-        Thread.sleep(4000);
+    @Then("^i can return home$")
+    public void returnHome() throws Throwable {
         driver.findElement(By.className("icon-home")).click();
         Thread.sleep(4000);
         driver.quit();

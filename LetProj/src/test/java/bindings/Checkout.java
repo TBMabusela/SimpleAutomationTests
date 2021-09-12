@@ -4,10 +4,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
@@ -60,25 +57,40 @@ public class Checkout {
     @And("^i can add the searched item to cart$")
     public void i_can_add_the_item_to_cart() throws Throwable {
         driver.findElement(By.cssSelector("#add_to_cart")).click();
-        Thread.sleep(6000);
+        Thread.sleep(10000);
     }
 
     @Then("i can proceed to check out")
     public void checkout () throws Throwable {
-        driver.findElement(By.className("icon-chevron-right right")).click();
+        driver.findElement(By.className("cross")).click();
+        Thread.sleep(5000);
+
+        driver.findElement(By.xpath ("//*[contains(@title,'View my shopping cart')]")).click();
+        Thread.sleep(5000);
+
+        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,750)");
+        driver.findElement(By.linkText("Proceed to checkout")).click();
         Thread.sleep(6000);
-        driver.findElement(By.className("icon-chevron-right right")).click();
+
+        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,250)");
+        driver.findElement(By.name("processAddress")).click();
         Thread.sleep(6000);
-        driver.findElement(By.cssSelector("#processAddress")).click();
+
+        driver.findElement(By.cssSelector("#cgv")).click();
         Thread.sleep(6000);
-        driver.findElement(By.cssSelector("#checkbox")).click();
+
+        driver.findElement(By.name("processCarrier")).click();
         Thread.sleep(6000);
-        driver.findElement(By.cssSelector("#processCarrier")).click();
+
+        ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,150)");
+        driver.findElement(By.className("bankwire")).click();
         Thread.sleep(6000);
-        driver.findElement(By.cssSelector("bankwire"));
+
+        driver.findElement(By.xpath("//*[contains(text(),'I confirm my order')]")).click();
         Thread.sleep(6000);
-        driver.findElement(By.cssSelector("submit")).click();
-        Thread.sleep(6000);
+
+        driver.findElement(By.className("home")).click();
+        Thread.sleep(2000);
         driver.quit();
     }
 

@@ -3,9 +3,9 @@ package bindings;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import gherkin.lexer.Th;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.concurrent.TimeUnit;
 
 public class AddToWishList {
@@ -19,11 +19,13 @@ public class AddToWishList {
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.get("http://automationpractice.com/index.php");
         driver.manage().window().maximize();
+        Thread.sleep(2000);
     }
 
     @When("^i select one item$")
     public void i_select_one_item() throws Throwable {
         ((JavascriptExecutor) driver).executeScript("javascript:window.scrollBy(0,250)");
+        Thread.sleep(2000);
         driver.findElement(By.linkText("Printed Chiffon Dress")).click();
     }
 

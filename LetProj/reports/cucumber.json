@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 28562974700,
+              "duration": 20099879800,
               "status": "passed"
             },
             "line": 6,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 15247676000,
+              "duration": 10988421200,
               "status": "passed"
             },
             "line": 7,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 5476986800,
+              "duration": 8261875500,
               "status": "passed"
             },
             "line": 8,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 6693720400,
+              "duration": 6967237300,
               "status": "passed"
             },
             "line": 9,
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 9971605700,
+              "duration": 10623308800,
               "status": "passed"
             },
             "line": 10,
@@ -110,7 +110,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17317953400,
+              "duration": 30155457700,
               "status": "passed"
             },
             "line": 6,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 3894491500,
+              "duration": 6251483600,
               "status": "passed"
             },
             "line": 7,
@@ -134,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 6771686700,
+              "duration": 6720839200,
               "status": "passed"
             },
             "line": 8,
@@ -178,7 +178,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23087715200,
+              "duration": 23056410400,
               "status": "passed"
             },
             "line": 6,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 23654333900,
+              "duration": 24605899600,
               "status": "passed"
             },
             "line": 7,
@@ -202,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 12845321900,
+              "duration": 13396334700,
               "status": "passed"
             },
             "line": 8,
@@ -214,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 16776734900,
+              "duration": 13090035300,
               "status": "passed"
             },
             "line": 9,
@@ -226,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 6065225500,
+              "duration": 10063617100,
               "status": "passed"
             },
             "line": 10,
@@ -238,9 +238,8 @@
           },
           {
             "result": {
-              "duration": 15166290400,
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".icon\\-chevron\\-right\\ right\"}\n  (Session info: chrome\u003d93.0.4577.63)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027TMABUSELA\u0027, ip: \u0027192.168.55.69\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\\Users\\TMABUS~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57412}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 399141984f21c113d7682485cfeb4053\n*** Element info: {Using\u003dclass name, value\u003dicon-chevron-right right}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:405)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat bindings.Checkout.checkout(Checkout.java:68)\r\n\tat ✽.Then i can proceed to check out(Checkout.feature:11)\r\n",
-              "status": "failed"
+              "duration": 75720565700,
+              "status": "passed"
             },
             "line": 11,
             "name": "i can proceed to check out",
@@ -271,7 +270,259 @@
         "comments": [
           {
             "line": 3,
-            "value": "#adding to cart and checkout feature"
+            "value": "#login attempt with wrong login credentials"
+          }
+        ],
+        "line": 5,
+        "name": "signing in with wrong login credentials",
+        "description": "",
+        "id": "failed-login-attempt;signing-in-with-wrong-login-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17340752600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "that i am on the website to shop",
+            "match": {
+              "location": "FailedLoginAttempt.i_am_on_the_website_to_shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5255695900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i will click on the sign in button",
+            "match": {
+              "location": "FailedLoginAttempt.click_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10132803900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i fill in the required fields with the wrong credentials",
+            "match": {
+              "location": "FailedLoginAttempt.fill_in_the_required_fields_with_the_wrong_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13386019300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i will not be able sign into the website",
+            "match": {
+              "location": "FailedLoginAttempt.i_will_not_be_able_sign_into_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Failed Login Attempt",
+    "description": "",
+    "id": "failed-login-attempt",
+    "keyword": "Feature",
+    "uri": "FailedLoginAttempt.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#searching items not on the website feature"
+          }
+        ],
+        "line": 5,
+        "name": "item not found on the site",
+        "description": "",
+        "id": "searching-items-not-on-the-site;item-not-found-on-the-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20823399200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i am on the landing page of the site",
+            "match": {
+              "location": "ItemNotFound.visitShoppingSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21419342600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i click sign in to login",
+            "match": {
+              "location": "ItemNotFound.signingIntoTheSite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12684245900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will search for an item not available on the site",
+            "match": {
+              "location": "ItemNotFound.failedSearchAttempt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8299195700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i can return home",
+            "match": {
+              "location": "ItemNotFound.returnHome()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Searching Items Not On The Site",
+    "description": "",
+    "id": "searching-items-not-on-the-site",
+    "keyword": "Feature",
+    "uri": "ItemNotFound.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#adding item to the wish list while logged in"
+          }
+        ],
+        "line": 5,
+        "name": "Adding Item to wishlist",
+        "description": "",
+        "id": "add-to-wishlist-logged-in;adding-item-to-wishlist",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33628841000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i am on the site",
+            "match": {
+              "location": "LoggedInWishListAddItem.onSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18559379400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i will login into the site",
+            "match": {
+              "location": "LoggedInWishListAddItem.loggingIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13025254100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i will return home on the site",
+            "match": {
+              "location": "LoggedInWishListAddItem.gotoHome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8541867600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i will select an item",
+            "match": {
+              "location": "LoggedInWishListAddItem.itemSelect()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6714483400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i can successfully add the item to my wishlist",
+            "match": {
+              "location": "LoggedInWishListAddItem.itemToWishList()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to Wishlist Logged in",
+    "description": "",
+    "id": "add-to-wishlist-logged-in",
+    "keyword": "Feature",
+    "uri": "LoggedInWishlistAddItem.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#searching feature"
           }
         ],
         "line": 5,
@@ -283,7 +534,7 @@
         "steps": [
           {
             "result": {
-              "duration": 23160219300,
+              "duration": 28740445500,
               "status": "passed"
             },
             "line": 6,
@@ -295,7 +546,7 @@
           },
           {
             "result": {
-              "duration": 19752246000,
+              "duration": 18792706700,
               "status": "passed"
             },
             "line": 7,
@@ -307,7 +558,7 @@
           },
           {
             "result": {
-              "duration": 8790915900,
+              "duration": 10143943300,
               "status": "passed"
             },
             "line": 8,
@@ -319,7 +570,7 @@
           },
           {
             "result": {
-              "duration": 19641251700,
+              "duration": 17660779000,
               "status": "passed"
             },
             "line": 9,
@@ -363,7 +614,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20487076700,
+              "duration": 17383929700,
               "status": "passed"
             },
             "line": 6,
@@ -375,7 +626,7 @@
           },
           {
             "result": {
-              "duration": 3708335900,
+              "duration": 5250940200,
               "status": "passed"
             },
             "line": 7,
@@ -387,7 +638,7 @@
           },
           {
             "result": {
-              "duration": 4123918100,
+              "duration": 4127174500,
               "status": "passed"
             },
             "line": 8,
@@ -399,7 +650,7 @@
           },
           {
             "result": {
-              "duration": 8933466400,
+              "duration": 9080654400,
               "status": "passed"
             },
             "line": 9,

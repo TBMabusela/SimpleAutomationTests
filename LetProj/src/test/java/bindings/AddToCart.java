@@ -4,7 +4,6 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -50,20 +49,20 @@ public class AddToCart {
         driver.findElement(By.cssSelector("#search_query_top")).click();
         driver.findElement(By.cssSelector("#search_query_top")).sendKeys("Faded Short Sleeve T-shirts");
         driver.findElement(By.cssSelector("#search_query_top")).sendKeys(Keys.ENTER);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
 
     }
 
     @And("^i can view the item$")
     public void i_can_view_the_item() throws Throwable {
         driver.findElement(By.className("product-container")).click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
     }
 
     @Then("^i can add the item to cart$")
     public void i_can_add_the_item_to_cart() throws Throwable {
         driver.findElement(By.cssSelector("#add_to_cart")).click();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.findElement(By.className("cross")).click();
         driver.findElement(By.className("home")).click();
         Thread.sleep(4000);
