@@ -1,9 +1,0 @@
-bindings\Checkout.class
-bindings\FailedLoginAttempt.class
-bindings\ItemNotFound.class
-bindings\SignIn.class
-bindings\LoggedInWishListAddItem.class
-runners\MyRunner.class
-bindings\AddToCart.class
-bindings\AddToWishList.class
-bindings\Search.class

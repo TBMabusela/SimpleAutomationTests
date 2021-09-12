@@ -55,35 +55,35 @@ formatter.match({
   "location": "AddToCart.that_i_am_on_the_shopping_website()"
 });
 formatter.result({
-  "duration": 20099879800,
+  "duration": 22728702500,
   "status": "passed"
 });
 formatter.match({
   "location": "AddToCart.login()"
 });
 formatter.result({
-  "duration": 10988421200,
+  "duration": 10160869600,
   "status": "passed"
 });
 formatter.match({
   "location": "AddToCart.i_add_an_item_to_the_basket()"
 });
 formatter.result({
-  "duration": 8261875500,
+  "duration": 8124733100,
   "status": "passed"
 });
 formatter.match({
   "location": "AddToCart.i_can_view_the_item()"
 });
 formatter.result({
-  "duration": 6967237300,
+  "duration": 7284013000,
   "status": "passed"
 });
 formatter.match({
   "location": "AddToCart.i_can_add_the_item_to_cart()"
 });
 formatter.result({
-  "duration": 10623308800,
+  "duration": 9994180400,
   "status": "passed"
 });
 formatter.uri("AddToWishLIst.feature");
@@ -133,21 +133,21 @@ formatter.match({
   "location": "AddToWishList.that_i_am_on_the_site_homepage()"
 });
 formatter.result({
-  "duration": 30155457700,
+  "duration": 31281977300,
   "status": "passed"
 });
 formatter.match({
   "location": "AddToWishList.i_select_one_item()"
 });
 formatter.result({
-  "duration": 6251483600,
+  "duration": 5833616800,
   "status": "passed"
 });
 formatter.match({
   "location": "AddToWishList.i_can_add_the_item_to_wishlist()"
 });
 formatter.result({
-  "duration": 6720839200,
+  "duration": 6737895000,
   "status": "passed"
 });
 formatter.uri("Checkout.feature");
@@ -212,42 +212,42 @@ formatter.match({
   "location": "Checkout.that_i_am_on_the_shopping_website()"
 });
 formatter.result({
-  "duration": 23056410400,
+  "duration": 23084960500,
   "status": "passed"
 });
 formatter.match({
   "location": "Checkout.login()"
 });
 formatter.result({
-  "duration": 24605899600,
+  "duration": 17639371000,
   "status": "passed"
 });
 formatter.match({
   "location": "Checkout.i_add_an_item_to_the_basket()"
 });
 formatter.result({
-  "duration": 13396334700,
+  "duration": 10692937700,
   "status": "passed"
 });
 formatter.match({
   "location": "Checkout.i_can_view_the_item()"
 });
 formatter.result({
-  "duration": 13090035300,
+  "duration": 11591362300,
   "status": "passed"
 });
 formatter.match({
   "location": "Checkout.i_can_add_the_item_to_cart()"
 });
 formatter.result({
-  "duration": 10063617100,
+  "duration": 10057523500,
   "status": "passed"
 });
 formatter.match({
   "location": "Checkout.checkout()"
 });
 formatter.result({
-  "duration": 75720565700,
+  "duration": 90392909200,
   "status": "passed"
 });
 formatter.uri("FailedLoginAttempt.feature");
@@ -302,29 +302,28 @@ formatter.match({
   "location": "FailedLoginAttempt.i_am_on_the_website_to_shop()"
 });
 formatter.result({
-  "duration": 17340752600,
+  "duration": 7090891900,
   "status": "passed"
 });
 formatter.match({
   "location": "FailedLoginAttempt.click_on_the_sign_in_button()"
 });
 formatter.result({
-  "duration": 5255695900,
-  "status": "passed"
+  "duration": 15089021200,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\"}\n  (Session info: chrome\u003d93.0.4577.63)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027TMABUSELA\u0027, ip: \u0027192.168.55.69\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\\Users\\TMABUS~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ea0cc268d050856616dd4393420209ca\n*** Element info: {Using\u003dclass name, value\u003dlogin}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:405)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat bindings.FailedLoginAttempt.click_on_the_sign_in_button(FailedLoginAttempt.java:31)\r\n\tat ✽.When i will click on the sign in button(FailedLoginAttempt.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "FailedLoginAttempt.fill_in_the_required_fields_with_the_wrong_credentials()"
 });
 formatter.result({
-  "duration": 10132803900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "FailedLoginAttempt.i_will_not_be_able_sign_into_the_website()"
 });
 formatter.result({
-  "duration": 13386019300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.uri("ItemNotFound.feature");
 formatter.feature({
@@ -378,28 +377,28 @@ formatter.match({
   "location": "ItemNotFound.visitShoppingSite()"
 });
 formatter.result({
-  "duration": 20823399200,
+  "duration": 29223854500,
   "status": "passed"
 });
 formatter.match({
   "location": "ItemNotFound.signingIntoTheSite()"
 });
 formatter.result({
-  "duration": 21419342600,
+  "duration": 38866880900,
   "status": "passed"
 });
 formatter.match({
   "location": "ItemNotFound.failedSearchAttempt()"
 });
 formatter.result({
-  "duration": 12684245900,
+  "duration": 14705860100,
   "status": "passed"
 });
 formatter.match({
   "location": "ItemNotFound.returnHome()"
 });
 formatter.result({
-  "duration": 8299195700,
+  "duration": 9766149400,
   "status": "passed"
 });
 formatter.uri("LoggedInWishlistAddItem.feature");
@@ -459,35 +458,35 @@ formatter.match({
   "location": "LoggedInWishListAddItem.onSite()"
 });
 formatter.result({
-  "duration": 33628841000,
+  "duration": 19866484000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoggedInWishListAddItem.loggingIn()"
 });
 formatter.result({
-  "duration": 18559379400,
+  "duration": 11357039800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoggedInWishListAddItem.gotoHome()"
 });
 formatter.result({
-  "duration": 13025254100,
+  "duration": 14045851900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoggedInWishListAddItem.itemSelect()"
 });
 formatter.result({
-  "duration": 8541867600,
+  "duration": 5201812900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoggedInWishListAddItem.itemToWishList()"
 });
 formatter.result({
-  "duration": 6714483400,
+  "duration": 6720528400,
   "status": "passed"
 });
 formatter.uri("Search.feature");
@@ -542,28 +541,28 @@ formatter.match({
   "location": "Search.i_will_be_on_the_shopping_site()"
 });
 formatter.result({
-  "duration": 28740445500,
+  "duration": 21365775200,
   "status": "passed"
 });
 formatter.match({
   "location": "Search.i_login_into_the_shopping_website()"
 });
 formatter.result({
-  "duration": 18792706700,
+  "duration": 19792424500,
   "status": "passed"
 });
 formatter.match({
   "location": "Search.i_will_search_for_a_specific_item()"
 });
 formatter.result({
-  "duration": 10143943300,
+  "duration": 8976207100,
   "status": "passed"
 });
 formatter.match({
   "location": "Search.i_can_view_the_that_specific_item_searched()"
 });
 formatter.result({
-  "duration": 17660779000,
+  "duration": 16076541900,
   "status": "passed"
 });
 formatter.uri("SignIn.feature");
@@ -618,28 +617,28 @@ formatter.match({
   "location": "SignIn.that_i_am_on_the_website()"
 });
 formatter.result({
-  "duration": 17383929700,
+  "duration": 21121424800,
   "status": "passed"
 });
 formatter.match({
   "location": "SignIn.i_click_on_the_sign_in_button()"
 });
 formatter.result({
-  "duration": 5250940200,
+  "duration": 6112849400,
   "status": "passed"
 });
 formatter.match({
   "location": "SignIn.i_fill_in_the_required_fields()"
 });
 formatter.result({
-  "duration": 4127174500,
+  "duration": 4131902400,
   "status": "passed"
 });
 formatter.match({
   "location": "SignIn.i_can_sign_into_the_website()"
 });
 formatter.result({
-  "duration": 9080654400,
+  "duration": 15889018600,
   "status": "passed"
 });
 });
