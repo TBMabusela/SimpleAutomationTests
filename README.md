@@ -8,20 +8,30 @@ This is a simple automation test suit that will serve an example of implementing
 
 * Selenium 
 * Spring Boot 
-*Java
-*Cucumeber JUnit 
-Chrome version : 93 
-Chrome driver: 93
-**Ensure to use chrome driver version 93, find the link here: https://chromedriver.chromium.org/downloads **
+* Java
+* Cucumeber JUnit 
+* Chrome driver : 93 
+  * for Chrome driver: 93
 
-#Install and Run Project 
-Clone the repository 
-Open a terminal and cd into the project 
-Run the following commands: 
-**mvn clean**
-**mvn install**
-**mvn test**
+**Ensure to use Chrome Version  93**
+__Or instead download the Chrome Driver that matches your Chrome version__ [HERE](https://chromedriver.chromium.org/downloads)
+1. Replace the chromedriver in the src/test/drivers folder 
 
-Testing 
-To run all tests, execute the following command:
-mvn test
+
+# Install and Run Project 
+1. Clone the repository 
+2. Open a terminal and cd into the project 
+3. Run the following commands to clean and build the project:
+   ```
+   mvn clean
+   mvn install
+   ```
+    
+4. Run the following command to run the project. It should begin testing:
+    ```
+    mvn test
+    ```
+### Find enclosed Manual Testing Scenarios docs
+
+
+
